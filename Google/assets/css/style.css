@@ -1,0 +1,146 @@
+  * {
+      margin: 0px;
+      padding: 0px;  
+  }
+  .header {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+  .header p a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    padding: 10px;
+  }
+  .header p a:hover {
+    text-decoration: underline;
+  }
+
+  .img  a img {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+  }
+  .img  a img:hover {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px gray;
+  }
+
+ 
+  .google {
+    width: 600px;
+    height: 170px;
+    margin: 180px auto;
+    position: relative;
+  }
+  .google img {
+    display: block;
+    margin: auto;
+  }
+  .google  .search i {
+    position: absolute;
+    left: 15px;
+    top: 106px;
+    color: #9aa0a6;
+    
+  }
+  input {
+    outline: none;
+  }
+  .google .search input {
+    width: 100%;
+    height: 44px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    padding: 0px 0px 0px 50px;
+  }
+  .google .search input:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+  }
+  .google .search svg {
+    width: 24px;
+    float: right;
+    position: absolute;
+    top: 104px;
+    right: 15px;
+    cursor: pointer;
+  }
+  .box1 button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    margin: 25px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .box1 {
+   text-align: center;
+  } 
+  
+  .box1 button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  .box2 {
+    text-align: center;
+  }
+  .box2 p {
+    font-family: arial,sans-serif;
+    color: #3c4043;
+    font-size: 13px;
+  }
+  .box2 p a {
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .box2 p a:hover {
+    text-decoration: underline;
+  }
+  .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
+  .footer1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+  }
+ 
+  .footer2 {
+    padding: 30px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+  }
+  .footer2 a {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    padding: 0px 20px 0px 0px;
+  }
+  .footer2 a:hover {
+  text-decoration: underline;
+  }
+  .footer2 .left {
+    float: left;
+  }
+.footer2 .right {
+  float: right;
+}
